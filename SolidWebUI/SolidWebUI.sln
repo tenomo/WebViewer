@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidWebUI", "SolidWebUI\SolidWebUI.csproj", "{A35640CA-23D3-46DC-9D6D-7EC0CDBEC7B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidWebUI.Tests", "SolidWebUI.Tests\SolidWebUI.Tests.csproj", "{A9A30B37-C178-4AB3-BF7B-593636B77560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A35640CA-23D3-46DC-9D6D-7EC0CDBEC7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35640CA-23D3-46DC-9D6D-7EC0CDBEC7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35640CA-23D3-46DC-9D6D-7EC0CDBEC7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35640CA-23D3-46DC-9D6D-7EC0CDBEC7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A30B37-C178-4AB3-BF7B-593636B77560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A30B37-C178-4AB3-BF7B-593636B77560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A30B37-C178-4AB3-BF7B-593636B77560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A30B37-C178-4AB3-BF7B-593636B77560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

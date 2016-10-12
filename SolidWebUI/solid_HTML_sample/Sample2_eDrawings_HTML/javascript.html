@@ -1,0 +1,40 @@
+﻿<HTML>
+
+<HEAD>
+<TITLE>EDrawings - JavaScript</TITLE>
+ 
+</HEAD>
+
+
+<!--
+Note--this page uses the version-independent eDrawings COM CoClass GUID.
+//-->
+<OBJECT
+	align=middle
+	width="80%"
+	height="50%"
+	ID="EModelViewControl"
+	name="EModelViewControl"
+	CLASSID="CLSID:22945A69-1191-4DCF-9E6F-409BDE94D101"> 
+ 	<PARAM name="Filename" value="http://pdmsrv/test/eDrawings/21009.SLDDRW"> </PARAM>
+ 	<PARAM name="EnableFeatures" value="16385"> </PARAM> 
+	 <param name="AlwaysShowWarningWatermark" value="0" /> 
+</OBJECT>
+
+ 
+
+<BODY>
+<FORM>
+<input type="button" value="Toggle Explode" name="Explode" onClick="Explode_click()"></input>
+<input type="button" value="Toggle Highlight" name="Highlight" onClick="Highlight_click()"></input>
+<p>
+<p>
+Введите имя
+</p>
+<input type="text" value="" name="SearchTextBox" id="SearchTextBox"></input>
+<input type="button" value="Поиск" name="Search" onClick="Search_click()"></input>
+</p>
+</FORM>
+</BODY>
+
+</HTML>

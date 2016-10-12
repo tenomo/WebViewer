@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+</HEAD>
+<TITLE>EDrawings - VBScript</TITLE>
+
+<!--
+Note--this page uses the version-independent eDrawings COM CoClass GUID.
+//-->
+<OBJECT
+	align=middle
+	width="80%"
+	height="50%"
+	ID="EModelViewControl"
+	CLASSID="CLSID:1ed92ed7-2f25-44d1-b6e2-7fa264356eb6">  
+	<PARAM name="Filename" value="D:\Vlad\Solid web viewer\Sample2_eDrawings_HTML\two_circles.EASM"/>
+ 	<PARAM name="EnableFeatures" value="16385"/>
+
+</OBJECT>
+
+
+
+
+<SCRIPT LANGUAGE=vbscript>
+Sub EModelViewControl_OnFinishedLoadingDocument(FileName)
+	Alert "Finished Loading: " & FileName 
+	EModelViewControl.ViewOperator = 0
+End Sub
+
+
+
+Sub EModelViewControl_OnComponentSelectionNotify(ComponentName, XCoordinate, YCoordinate) 
+	Alert "Selected: "  & ComponentName
+
+End Sub
+
+Sub Explode_OnClick
+''Check the value of the component component state "1" (explode state), and change it to the opposite.
+	Dim markup
+	Set markup = EModelViewControl.CoCreateInstance("EModelViewMarkup.EModelMarkupControl")
+	If markup.ViewState(1)=true Then
+		markup.ViewState(1)=false
+	Else
+		markup.ViewState(1)=true
+	End If
+
+
+End Sub
+
+
+Sub Highlight_OnClick
+''Check the value of the component component state "2" (highlight), and change it to the opposite.
+
+	If  EModelViewControl.ComponentState("two_circles/two_circles_config1/circle-1",2)  = true Then
+		EModelViewControl.ComponentState("two_circles/two_circles_config1/circle-1",2)=false
+	Else
+		EModelViewControl.ComponentState("two_circles/two_circles_config1/circle-1",2)=true
+	End If
+
+End Sub
+
+
+</SCRIPT>
+
+<BODY>
+<FORM>
+<input type="button" value="Toggle Explode" name="Explode"></input>
+<input type="button" value="Toggle Highlight" name="Highlight"></input>
+</FORM>
+</BODY>
+
+</HTML>
+
+
+
+
+
+
