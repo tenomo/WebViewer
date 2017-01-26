@@ -14,7 +14,6 @@ D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\SolidWebUI.Test
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\SolidWebUI.Tests.dll
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\SolidWebUI.Tests.pdb
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\Castle.Core.dll
-D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\Moq.dll
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\Ninject.dll
@@ -43,3 +42,17 @@ D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\obj\Release\SolidWebUI.Test
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\obj\Release\SolidWebUI.Tests.pdb
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\ServiceLibrary.dll
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\ServiceLibrary.pdb
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\csc.exe.config
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\csc.rsp
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\csi.exe
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\csi.rsp
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\System.AppContext.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\System.Diagnostics.StackTrace.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\System.IO.FileSystem.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\vbc.exe.config
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Release\roslyn\vbc.rsp
