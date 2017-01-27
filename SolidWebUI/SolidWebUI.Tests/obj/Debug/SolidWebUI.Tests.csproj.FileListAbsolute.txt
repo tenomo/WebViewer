@@ -55,3 +55,4 @@ D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Debug\roslyn\System.IO.
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Debug\roslyn\vbc.exe.config
 D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\bin\Debug\roslyn\vbc.rsp
+D:\Vlad\Solid web viewer\SolidWebUI\SolidWebUI.Tests\obj\Debug\SolidWebUI.Tests.csprojResolveAssemblyReference.cache
